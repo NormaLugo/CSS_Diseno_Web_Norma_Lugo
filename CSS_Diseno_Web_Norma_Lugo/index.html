@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>CSS y Diseño Web Responsive Evaluación Final</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
+    <style media="screen">
+      #Paisajes img{
+        transform: rotate();
+      }
+		  #Paisajes img:hover{
+        transform: rotateZ(10deg);
+			  border: solid 2px #82c3a6;
+		  }
+      #Retratos img{
+        transform: translate();
+      }
+      #Retratos img:hover{
+        transform: translate(20px, -5px);
+        border: solid 2px #82c3a6;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Comenzando con la fotografía</h1>
+      <nav id="menuPrincipal">
+        <a href="#inicio">Inicio</a>
+        <a href="Paisajes.html">Paisajes</a>
+        <a href="Retratos.html">Retratos</a>
+      </nav>
+    </header>
+      <div class="contenedor">
+        <div class="columna1">
+          <figure id="Paisaje1">
+            <figcaption></figcaption>
+              <img src="image/Paisaje1.jpeg" alt="Paisaje1">
+          </figure>
+        </div>
+        <div class="columna2">
+          <figure id="Paisajes">
+              <img src="image/Paisajes.jpeg" alt="Paisajes">
+            <figcaption>Paisajes</figcaption>
+          </figure>
+        </div>
+        <div class="columna3">
+          <figure id="Retratos">
+              <img src="image/Retratos.jpeg" alt="Retratos">
+            <figcaption>Retratos</figcaption>
+          </figure>
+        </div>
+      </div>
+        <footer>
+          <div class="contenedor2">
+            <div class="contacto">
+              <p>
+                <h2>Contacto</h2>
+                  Norma Lugo</br>
+                  e-mail: normalugogalicia@gmail.com</br>
+                  Cel. 722 361 8658
+                </p>
+            </div>
+            <div class="terminos">
+              <p>
+                <h2>Términos</h2>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="redes">
+              <p>
+                <h2>Redes Sociales</h2>
+                    Facebook</br>
+                    Twitter</br>
+                    Instagram</br>
+              </p>
+            </div>
+            <div class="derechos">
+              <p>
+                <h2>Derechos</h2>
+                    Norma Lugo ®2017
+              </p>
+            </div>
+          </div>
+        </footer>
+  </body>
+</html>
